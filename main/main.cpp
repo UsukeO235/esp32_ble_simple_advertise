@@ -98,7 +98,7 @@ void app_main(void)
 	ESP_ERROR_CHECK( esp_bluedroid_init() );
 	ESP_ERROR_CHECK( esp_bluedroid_enable() );
 
-	ESP_ERROR_CHECK( esp_ble_gap_set_device_name("ESP32-ADVERTISER") );
+	ESP_ERROR_CHECK( esp_ble_gap_set_device_name("ESP32") );
 	ESP_ERROR_CHECK( esp_ble_gap_config_adv_data(&adv_data) );
 	ESP_ERROR_CHECK( esp_ble_gap_register_callback(gap_event_callback) );
 	ESP_ERROR_CHECK( esp_ble_gap_start_advertising(&adv_params) );
