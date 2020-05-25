@@ -5,5 +5,4 @@ set( include_dirs
 
 idf_component_register( SRCS "main.cpp"
 	INCLUDE_DIRS "." ${include_dirs}
-	PRIV_REQUIRES bt
 )
