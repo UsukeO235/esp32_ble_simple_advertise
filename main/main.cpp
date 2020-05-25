@@ -6,6 +6,9 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 
+#include "nvs.h"
+#include "nvs_flash.h"
+
 // adv_data and _adv_params come from esp-idf's bluetooth examples.
 static esp_ble_adv_data_t adv_data = {
     .set_scan_rsp = false,
