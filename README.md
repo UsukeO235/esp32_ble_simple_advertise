@@ -1,5 +1,8 @@
 # esp32_ble_simple_advertise
-Minimal esp-idf BLE advertise example for ESP32
+# Overview
+Minimal esp-idf BLE advertise example for ESP32.<br>
+This program periodically advertises short data to central devices.<br>
+You will find the last byte of the packet is updated every 2 seconds.
 
 # Usage
 ## Build project
