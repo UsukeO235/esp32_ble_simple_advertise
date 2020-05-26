@@ -10,3 +10,12 @@ cd esp32_ble_simple_advertise
 idf.py set-target esp32
 idf.py build
 ```
+## Flash program
+```bash
+idf.py -p /dev/ttyUSB0 flash
+```
+/dev/ttyUSB0 is a port to where you connect your ESP32 board.
+## Launch monitor
+```bash
+idf.py monitor
+```
